@@ -1,0 +1,19 @@
+﻿@model Music.Controllers.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card bg-primary-subtle text-white">
+            <div class="card-body">
+                <h1 class="display-4 text-primary">
+                    Music App
+                </h1>
+                <a class="btn btn-primary" asp-controller="Tracks" asp-action="Create">Upload music</a>
+            </div>
+        </div>
+    </div>
+</div>

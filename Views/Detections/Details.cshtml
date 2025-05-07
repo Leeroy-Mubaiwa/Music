@@ -1,0 +1,52 @@
+﻿@model Music.Models.Detection
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Detection</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateDetected)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateDetected)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ArtistName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ArtistName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SongName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SongName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Confidence)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Confidence)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Track)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Track.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    @if (ViewData["id"] != null)
+    {
+        <a asp-controller="Messages" asp-action="Index" asp-route-artistId="@ViewData["id"]" class="btn btn-primary mx-2">Request Collaboration</a>
+
+    }
+    <a asp-action="Index">Back to List</a>
+</div>

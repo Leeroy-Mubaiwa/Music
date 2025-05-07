@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext name="musicConn" Microsoft.EntityFrameworkCore.SqlServer -context MusicDbContext -ContextDir Data  -outputdir Models -DataAnnotations -force 

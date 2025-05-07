@@ -1,0 +1,123 @@
+﻿@model List<Music.Controllers.MessageBody>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="row">
+    <div class="col-md-3 col-sm-4">
+        <div class="card">
+            <div class="card-body overflow-auto">
+                <ul>
+                    @foreach (var user in Model)
+                    {
+                        var url = $"https://ui-avatars.com/api/?name={user.Artist.Email}&background=random";
+                        <li class="mb-2 btn btn-outline-light btn-sm text-dark d-flex gap-2" onclick="showMessages(this.id)" id="@user.Artist.Id">
+                            <img src="@url" style="width:30px; height:30px;" class="rounded-circle" />
+                            <span>
+                                @user.Artist.Email
+                            </span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9 col-sm-8">
+        <div class="card">
+            <div class="card-body">
+                @foreach (var user in Model)
+                {
+                    <div id="chats-@user.Artist.Id">
+                        @foreach (var message in user.Messages)
+                        {
+
+                            @if (message.TargetUser == user.Artist.Id)
+                            {
+                                <div class="d-flex justify-content-end alert alert-primary" role="alert">
+                                    @message.Message1
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="d-flex justify-content-start alert alert-secondary" role="alert">
+                                    @message.Message1
+                                </div>
+                            }
+
+                        }
+                    </div>
+                }
+            </div>
+
+            <form class="card-footer" asp-controller="Messages" asp-action="Create"  >
+                <div class="input-group">
+                    <input type="hidden" name="destination" id="destination" />
+                    <input class="form-control" name="message" />
+                    <button class="btn btn-primary">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    @if (ViewData["artistId"] != null)
+    {
+        @section Scripts {
+            <script>
+        var currentArtist = '';
+
+        $(document).ready(function () {
+            var artistId = '@ViewData["artistId"]';
+            var element = document.getElementById(artistId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                element.click();
+                currentArtist = artistId;
+            }
+        });
+
+        function showMessages(id) {
+            // Show the relevant chat
+            document.getElementById("chats-" + id).hidden = false;
+
+            // Hide all other chats
+            var elements = document.querySelectorAll("[id^='chats-']");
+            elements.forEach(function (element) {
+                if (element.id !== "chats-" + id) {
+                    element.hidden = true;
+                }
+            });
+
+            // Update currentArtist and apply styles
+            currentArtist = id;
+            updateActiveClass();
+        }
+
+        function updateActiveClass() {
+            // Highlight the currently selected artist
+            var activeElement = document.getElementById(currentArtist);
+            if (activeElement) {
+                activeElement.classList.add("bg-primary");
+                activeElement.classList.add("text-white");
+                document.getElementById("destination").value = currentArtist;
+            }
+
+            // Remove the highlight from all others
+            var elements = document.querySelectorAll("li[id]");
+            elements.forEach(function (element) {
+                if (element.id !== currentArtist) {
+                    element.classList.remove("bg-primary");
+                    element.classList.remove("text-white");
+                }
+            });
+        }
+
+        // Optional: re-apply styles every second, if needed
+        // setInterval(updateActiveClass, 1000);
+            </script>
+        }
+
+    }

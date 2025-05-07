@@ -1,0 +1,49 @@
+﻿@model Music.Models.Message
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Message</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="SourceUser" class="control-label"></label>
+                <select asp-for="SourceUser" class="form-control" asp-items="ViewBag.SourceUser"></select>
+                <span asp-validation-for="SourceUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TargetUser" class="control-label"></label>
+                <select asp-for="TargetUser" class="form-control" asp-items="ViewBag.TargetUser"></select>
+                <span asp-validation-for="TargetUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateSent" class="control-label"></label>
+                <input asp-for="DateSent" class="form-control" />
+                <span asp-validation-for="DateSent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Message1" class="control-label"></label>
+                <input asp-for="Message1" class="form-control" />
+                <span asp-validation-for="Message1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
