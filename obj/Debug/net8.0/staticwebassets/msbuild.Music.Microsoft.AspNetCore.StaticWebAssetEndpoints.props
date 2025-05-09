@@ -408,11 +408,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tey0rigmnh"},{"Name":"integrity","Value":"sha256-NbFZxZLmBVNLzb/7B0WdFfb6\u002B8jXHGX6XY190uwgbec="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap-utilities.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71584"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NbFZxZLmBVNLzb/7B0WdFfb6\u002B8jXHGX6XY190uwgbec=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:27:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.1trof4ahcb.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1trof4ahcb"},{"Name":"integrity","Value":"sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 06:45:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7yBrCGVoG3Uatr4CJx7\u002BmgkA0i3Lj4y09PUhwwV9qts="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"277006"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227yBrCGVoG3Uatr4CJx7\u002BmgkA0i3Lj4y09PUhwwV9qts=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 12:28:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 06:45:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map'))</AssetFile>
@@ -426,17 +432,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"536547"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:27:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.min.2m1mjfx76s.css">
+    <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.min.1trof4ahcb.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2m1mjfx76s"},{"Name":"integrity","Value":"sha256-qhChS6bTsyx4SwVsW\u002BwN7kqUhBGb9yG7Vwv\u002B/zsofvI="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap.min.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qhChS6bTsyx4SwVsW\u002BwN7kqUhBGb9yG7Vwv\u002B/zsofvI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 12:28:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1trof4ahcb"},{"Name":"integrity","Value":"sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"316596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 06:46:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qhChS6bTsyx4SwVsW\u002BwN7kqUhBGb9yG7Vwv\u002B/zsofvI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"232019"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qhChS6bTsyx4SwVsW\u002BwN7kqUhBGb9yG7Vwv\u002B/zsofvI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 12:28:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"316596"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 06:46:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map'))</AssetFile>
@@ -497,12 +503,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ve6x09088i"},{"Name":"integrity","Value":"sha256-SZ2mKaD4A\u002Bb\u002BHIvttwl\u002BTvLFnVy8o8/X40j\u002BEKVwyvY="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap.rtl.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"203803"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SZ2mKaD4A\u002Bb\u002BHIvttwl\u002BTvLFnVy8o8/X40j\u002BEKVwyvY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:27:14 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/css/bootstrap.zfbkagqq45.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zfbkagqq45"},{"Name":"integrity","Value":"sha256-7yBrCGVoG3Uatr4CJx7\u002BmgkA0i3Lj4y09PUhwwV9qts="},{"Name":"label","Value":"_content/Music/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"277006"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227yBrCGVoG3Uatr4CJx7\u002BmgkA0i3Lj4y09PUhwwV9qts=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 12:28:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/lib/bootstrap/dist/js/bootstrap.bundle.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</AssetFile>
@@ -810,11 +810,23 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b9edjhlt4y"},{"Name":"integrity","Value":"sha256-kQ91blZLUBTjfakeA8kNGSx0VG4ZonsBaBHgIJsP2zM="},{"Name":"label","Value":"_content/Music/Music.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1123"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kQ91blZLUBTjfakeA8kNGSx0VG4ZonsBaBHgIJsP2zM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:28:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Music/music.bak">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\music.bak'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5923328"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 18:03:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Music/Music.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Music.b9edjhlt4y.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kQ91blZLUBTjfakeA8kNGSx0VG4ZonsBaBHgIJsP2zM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1123"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kQ91blZLUBTjfakeA8kNGSx0VG4ZonsBaBHgIJsP2zM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:28:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Music/music.me1d4b81n5.bak">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\music.bak'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"me1d4b81n5"},{"Name":"integrity","Value":"sha256-omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I="},{"Name":"label","Value":"_content/Music/music.bak"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5923328"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=\u0022"},{"Name":"Last-Modified","Value":"Thu, 08 May 2025 18:03:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zfbkagqq45</Fingerprint>
-      <Integrity>7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts=</Integrity>
+      <Fingerprint>1trof4ahcb</Fingerprint>
+      <Integrity>O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</OriginalItemSpec>
@@ -660,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2m1mjfx76s</Fingerprint>
-      <Integrity>qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI=</Integrity>
+      <Fingerprint>1trof4ahcb</Fingerprint>
+      <Integrity>O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -1223,6 +1223,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Music.b9edjhlt4y.bundle.scp.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\music.bak'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Music</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Music</BasePath>
+      <RelativePath>music.bak</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>me1d4b81n5</Fingerprint>
+      <Integrity>omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\music.bak'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

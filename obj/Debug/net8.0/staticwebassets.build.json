@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lCfpjZzHiMsOXZyrH0Adwo7YG945dXXY8D5omLjD4EE=",
+  "Hash": "cocoQUzVzpV39VZtb+zbE8BCo0HHkecWhNNNJuR907c=",
   "Source": "Music",
   "BasePath": "_content/Music",
   "Mode": "Default",
@@ -1543,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zfbkagqq45",
-      "Integrity": "7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts=",
+      "Fingerprint": "1trof4ahcb",
+      "Integrity": "O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
@@ -1585,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2m1mjfx76s",
-      "Integrity": "qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI=",
+      "Fingerprint": "1trof4ahcb",
+      "Integrity": "O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
@@ -2724,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\music.bak",
+      "SourceId": "Music",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\",
+      "BasePath": "_content/Music",
+      "RelativePath": "music#[.{fingerprint}]?.bak",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "me1d4b81n5",
+      "Integrity": "omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music.bak"
     }
   ],
   "Endpoints": [
@@ -5768,6 +5789,51 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/css/bootstrap.1trof4ahcb.css",
+      "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 06:45:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1trof4ahcb"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
@@ -5778,7 +5844,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "277006"
+          "Value": "316596"
         },
         {
           "Name": "Content-Type",
@@ -5786,11 +5852,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts=\""
+          "Value": "\"O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:28:41 GMT"
+          "Value": "Fri, 09 May 2025 06:45:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5800,7 +5866,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts="
+          "Value": "sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="
         }
       ]
     },
@@ -5887,7 +5953,7 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.2m1mjfx76s.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.1trof4ahcb.css",
       "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5897,7 +5963,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "232019"
+          "Value": "316596"
         },
         {
           "Name": "Content-Type",
@@ -5905,11 +5971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI=\""
+          "Value": "\"O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:28:31 GMT"
+          "Value": "Fri, 09 May 2025 06:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5919,7 +5985,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2m1mjfx76s"
+          "Value": "1trof4ahcb"
         },
         {
           "Name": "label",
@@ -5927,7 +5993,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI="
+          "Value": "sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="
         }
       ]
     },
@@ -5942,7 +6008,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "232019"
+          "Value": "316596"
         },
         {
           "Name": "Content-Type",
@@ -5950,11 +6016,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI=\""
+          "Value": "\"O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:28:31 GMT"
+          "Value": "Fri, 09 May 2025 06:46:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5964,7 +6030,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qhChS6bTsyx4SwVsW+wN7kqUhBGb9yG7Vwv+/zsofvI="
+          "Value": "sha256-O34SqUvNGMroowP5PMi5wCF5Uc9swdEjcAx6YxJq5Cc="
         }
       ]
     },
@@ -6375,51 +6441,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.zfbkagqq45.css",
-      "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "277006"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 12:28:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zfbkagqq45"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7yBrCGVoG3Uatr4CJx7+mgkA0i3Lj4y09PUhwwV9qts="
         }
       ]
     },
@@ -10532,6 +10553,43 @@
       ]
     },
     {
+      "Route": "music.bak",
+      "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\music.bak",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5923328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I="
+        }
+      ]
+    },
+    {
       "Route": "Music.bundle.scp.css",
       "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Music.bundle.scp.css",
       "Selectors": [],
@@ -10565,6 +10623,51 @@
         {
           "Name": "integrity",
           "Value": "sha256-kQ91blZLUBTjfakeA8kNGSx0VG4ZonsBaBHgIJsP2zM="
+        }
+      ]
+    },
+    {
+      "Route": "music.me1d4b81n5.bak",
+      "AssetFile": "C:\\Users\\HP\\Documents\\Visual Studio 2022\\Projects\\Music\\Music\\wwwroot\\music.bak",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5923328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 18:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "me1d4b81n5"
+        },
+        {
+          "Name": "label",
+          "Value": "music.bak"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-omdZLP0g8iK7e9P24SItpdNsLUpPLZB6BG7E8Xsa/1I="
         }
       ]
     },

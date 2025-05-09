@@ -269,3 +269,4 @@ C:\Users\HP\Documents\Visual Studio 2022\Projects\Music\Music\bin\Debug\net8.0\r
 C:\Users\HP\Documents\Visual Studio 2022\Projects\Music\Music\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\HP\Documents\Visual Studio 2022\Projects\Music\Music\obj\Debug\net8.0\Music.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\HP\Documents\Visual Studio 2022\Projects\Music\Music\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP\Documents\Visual Studio 2022\Projects\Music\Music\obj\Debug\net8.0\Music.sourcelink.json
